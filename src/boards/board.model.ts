@@ -1,3 +1,5 @@
+import { Controller } from "@nestjs/common";
+
 export interface Board {
     id: string;
     title: string;
